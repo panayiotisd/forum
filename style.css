@@ -1,0 +1,134 @@
+body {
+	font-family: Trebuchet MS;
+	background-color: #aaa;
+	background-image: url('images/background.png');
+}
+
+body  a{
+	font-size: 1.2em;
+	color: #000;
+}
+
+body  a:visited {
+	font-size: 1.2em;
+	color: #aaa;
+}
+
+h1 #header{
+	font-family: Comics Sans MS;
+}
+
+#content {
+	background-image: url('images/content.png');
+	color:white;
+	padding: 1em;
+	-moz-border-radius: 2em;
+}
+
+#content p {
+	position:absolute;
+	right:2em;
+	top : 2em;
+}
+
+#content a {
+	font-size: 1.2em;
+	color: #000;
+}
+
+#content a:visited {
+	font-size: 1.2em;
+	color: #aaa;
+}
+
+#falcon{
+	float: left;
+	margin: 0px;
+	padding:0px;
+}
+
+#falcon img{
+	border:0px;
+}
+
+.empty {
+	height:1em;
+}
+
+#navbar {
+	background-color:#aaa;
+	background-image:url('images/dark-wood.jpg');
+	padding: 0px 0px 0px 0px;
+    margin-top: 2px;
+    -moz-border-radius: 10px;
+}
+
+#navbar a {
+	color : white;
+	width: auto;
+	margin-left: 40px;
+	font-size: 15px;
+	line-height: 40px;
+}
+
+#datetime{
+	float:right;
+	color:white;
+}
+
+#box {
+	width:auto;
+	margin: 5% 10% 0% 10%;
+	padding-left:10%;
+	clear:both;
+	border-bottom: 3px black solid;
+	border-top: 3px black solid;
+	color:white;
+}
+
+#box  h2.topictitle {
+	margin-left:-10%
+}
+
+.error {
+	display: inline;
+	color: red;
+}
+
+#exit {
+	display: block;
+	background-image: url(images/logout.png);
+	width: 35px;
+	height: 35px;
+	font-size: 0.001px;
+	text-indent: -99999em;
+	float: right;
+	margin-left:1em;
+}
+
+.postinfo {
+	color:#aaa;
+	margin-left:-5%
+}
+
+.reply {
+	position:relative;
+	left: 80%;
+	color: black;
+}
+
+#new_topic_button {
+	float:right;
+	clear:both;
+	color: black;
+}
+
+.replies{
+	text-align:center;
+}
+
+#emoticons_table {
+	position:relative;
+	left: 7em;
+	bottom: 1.5em;
+}
